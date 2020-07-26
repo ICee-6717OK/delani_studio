@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Varta&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="bootstrap/css" href="css/bootstrap.css">
@@ -12,7 +13,9 @@
         <h1>WELCOME<h1> 
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <img src="assets/mouse_click.png" alt="mouse-click" id="mouse"> 
+        <div id="mouse">
+        <img src="assets/mouse_click.png" alt="mouse-click">
+        </div> 
       </header>
 
       <div class="about">
@@ -78,11 +81,11 @@
 
       <div class="contact">
         <h2>CONTACT US</h2>
-        <form>
-          <input type="text" id="name" placeholder="Name...">
-          <input type="email" id="email" placeholder="Email...">
-          <input type="text" id="message" placeholder="Your message here...">
-        </form>
+        <form class="form-inline" action="">
+          <input type="text" id="name" placeholder="Name..." name="name">
+          <input type="email" id="email" placeholder="Email..." name="email">
+          <input type="text" id="message" placeholder="Your message here..." name="message">
+        </form>  
       </div>
 
         <div class="icons">
