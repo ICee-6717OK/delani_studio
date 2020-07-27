@@ -44,7 +44,7 @@ header{
   box-sizing: border-box;
 }
 .column {
-  float: left;
+  float: right;
   width: 20%;
   padding: 30px;
 }
