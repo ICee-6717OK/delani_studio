@@ -43,15 +43,24 @@ header{
   padding: 2px 4px;
   box-sizing: border-box;
 }
+.row{
+  margin-left: -20%;
+  margin-right: 15%;
+}
 .column {
   float: right;
-  width: 20%;
-  padding: 30px;
+  width: 15%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+.overlay{
+  display:none;
 }
 figure {
   padding: 8px;
@@ -75,7 +84,18 @@ figcaption {
   padding-left:150px;
   padding-right: 150px;
 }
-
+#info{
+  display: none;
+  margin: 0 40px;
+  float: left;
+  width: 290px;
+  height: 190px;
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .contact {
   background-image: url(../assets/backgrounds/c_image.jpg);
   box-sizing: border-box;
