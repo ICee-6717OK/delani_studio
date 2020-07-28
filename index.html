@@ -37,7 +37,7 @@
       <div class="does">
         <h2>WHAT WE DO</h2>
         <figure>
-          <a href="function(e)"><img src="assets/services_icons/design_icon.png" alt="design" id="cliq"></a>
+          <img src="assets/services_icons/design_icon.png" alt="design" id="cliq">
           <div id="info">
             <h2>Design</h2>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed."</p>
@@ -144,13 +144,9 @@ function messageRes(){
 
 <script>
 $(document).ready(function () {
-  $("figure").click(function(e){
-    var newClass= $('this').attr("#info")
-    var oldClass= $("figure").attr('img')
-    $('figure').fadeOut(function(){
-      $('img').removeClass(oldClass).addClass(newClass).fadeIn(200).css("display"="block");
-    })
-  })
+  $( "#cliq" ).click(function() {
+  $( this ).replaceWith($( '#info' ));
+});
 });
 
 </script>
