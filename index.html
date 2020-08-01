@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Varta&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="bootstrap/css" href="css/bootstrap.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="//cdn-assets.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Delani Studio</title>
   </head>
   <body>
@@ -35,73 +36,82 @@
       </div>
 
       
-        <div id="does">
-          <h2>WHAT WE DO</h2>
-        <figure>
-          <img src="assets/services_icons/design_icon.png" alt="design" id="design">
-          <div class="info">
-            <h2>Design</h2>
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed."</p>
-          </div>
-          <figcaption>Design</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/services_icons/dev_icon.png" alt="development" id="development">
-          <div class="info">
-            <h2>Development</h2>
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-          </div>
-          <figcaption>Development</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/services_icons/product_icon.png" alt="product" id="management">
-          <div class="info">
-            <h2>Product Management</h2>
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
-            <p>This iterative process allows for changes as business requirements evolve.</p>
-          </div>
-          <figcaption>Product Management</figcaption>
-        </figure>
-      </div>
-
-      <div class="portfolio">
-        <h2>PORTFOLIO</h2>
+      <div class="container does">
+        <h2>WHAT WE DO</h2>
         <div class="row">
-          <div class="column">
-            <img src="assets/portfolio/work1.jpg" alt="work1" style="width:100%" class="image">
-            <div class="overlay"><p>Phoneix Entertainment.</p></div>
+          <div class="col-md-4">
+            <div id="design">
+              <h2 class="top">DESIGN</h2>
+              <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
+            <div id="design-img">
+              <img src="./assets/services_icons/design_icon.png" alt="design">
+              <p>DESIGN</p>
+            </div>
           </div>
-          <div class="column">
-            <img src="assets/portfolio/work2.jpg" alt="work2" style="width:100%" class="image">
-            <div class="overlay"><p>Alphonse Corp.</p></div>
+          <div class="col-md-4">
+            <div id="development">
+              <h2 class="top">DEVELOPMENT</h2>
+              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                 <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+            <div id="development-img">
+              <img src="./assets/services_icons/dev_icon.png" alt="development">
+              <P>DEVELOPMENT</P>
+            </div>
           </div>
-          <div class="column">
-            <img src="assets/portfolio/work3.jpg" alt="work3" style="width:100%" class="image">
-            <div class="overlay"><p>Ontario Security.</p></div>
-          </div>
-          <div class="column">
-            <img src="assets/portfolio/work4.jpg" alt="work4" style="width:100%" class="image">
-            <div class="overlay"><p>Bardatov Systems Corp.</p></div>
+          <div class="col-md-4">
+            <div id="product">
+              <h2 class="top">PRODUCT MANAGEMENT</h2>
+              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+              <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+            <div id="product-img">
+              <img src="./assets/services_icons/product_icon.png" alt="products">
+              <P>PRODUCT MANAGEMENT</P>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="column">
-            <img src="assets/portfolio/work8.jpg" alt="work8" style="width:100%" class="image">
-            <div class="overlay"><p>Bailey Wonger.</p></div>
+      </div>
+     
+      <div class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="row" id="portfolio">
+          <div class="col-md-3" id="work1">
+            <img src="./assets/portfolio/work4.jpg" alt="work1" >
+            <p id="overlay"class="text">A website for a photography corporation, <strong>Clickat Corp</strong>.</p>
           </div>
-          <div class="column">
-            <img src="assets/portfolio/work7.jpg" alt="work7" style="width:100%" class="image">
-            <div class="overlay"><p>Clement And Sons.</p></div>
+          <div class="col-md-3" id="work2">
+            <img src="./assets/portfolio/work3.jpg" alt="work2" id="work2">
+            <p id="overlay2" class="text"><em>The Mighty Ontario Security Corporation</em><br> Created in 2018 by Bart Simpson, this is our longest serving member in site management.</p>
           </div>
-          <div class="column">
-            <img src="assets/portfolio/work6.jpg" alt="work6" style="width:100%" class="image">
-            <div class="overlay"><p>Supremacy Sounds.</p></div>
+          <div class="col-md-3" id="work3">
+            <img src="./assets/portfolio/work2.jpg" alt="work3">
+            <p id="overlay3"class="text"><em>Karim Textiles</em> is a company dedicated in the supply and creation of quality textiles and atire.</p>
           </div>
-          <div class="column">
-            <img src="assets/portfolio/work5.jpg" alt="work5" style="width:100%" class="image">
-            <div class="overlay"><p>Season's Cafe.</p></div>
+          <div class="col-md-3" id="work4">
+            <img src="./assets/portfolio/work1.jpg" alt="work4">
+            <p id="overlay4" class="text"><em>Phoneix Entertainment</em> is the best website for your favorite movie reviews and recommendations!</p>
           </div>
+        </div>
+        <div class="row" id="portfolio">
+            <div class="col-md-3" id="work5">
+              <img src="./assets/portfolio/work5.jpg" alt="work1">
+              <p id="overlay5" class="text"><em>Castor Church</em> is a web-based church, where you get your spiritual fulfillment at the comfort of your home!</p>
+            </div>
+            <div class="col-md-3" id="work6">
+              <img src="./assets/portfolio/work6.jpg" alt="work2">
+              <p id="overlay6"class="text"><em>Cranial Sounds</em> is a musical organization for event booking and Dj Academy.</p>
+            </div>
+            <div class="col-md-3" id="work7">
+              <img src="./assets/portfolio/work7.jpg" alt="work3">
+              <p id="overlay7" class="text"><em>Steve's Orchard</em> is a wine refinery company, log in and bottoms up!</p>
+            </div>
+            <div class="col-md-3" id="work8">
+              <img src="./assets/portfolio/work8.jpg" alt="work4">
+              <p id="overlay8" class="text"><em>Bailey Wonger Resturant</em> is the best eatery in the east and west coast.</p>
+            </div>
         </div>
       </div>
 
@@ -133,19 +143,7 @@
         </div>
   </body>
 
-<script>
-
-function messageRes(){
-  var x1= document.getElementById('name').value;
-
-  alert(x1 +" we have received your message. Thank you for reaching out to us!");
-}
-
-</script>
-
-<script>
-$( "figure","#design" ).click(function() {
-  $( this ).slideUp();
-</script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script> 
 
 </html>
