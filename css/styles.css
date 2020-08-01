@@ -103,10 +103,6 @@ header{
   padding-top: 50%;
   font-family: 'Open Sans', sans-serif;
 }
-.row{
-  margin-left: -20%;
-  margin-right: 15%;
-}
 .column {
   float: right;
   width: 15%;
@@ -138,7 +134,7 @@ header{
 }
 .form-inline #name, #email {
   vertical-align: middle;
-  margin: 5px 20px 5px 0;
+  margin: 5px 5px 5px 0;
   padding: 10px;
   padding-right: 32%;
   background-color: rgba(255, 255, 255, 0);
